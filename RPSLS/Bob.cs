@@ -6,7 +6,16 @@ using System.Threading.Tasks;
 
 namespace RPSLS
 {
-    class Bob
+    public class Bob : Player
     {
+        public Bob(string bob, string human, string gestures)
+
+        {
+            name = bob;
+            type = human;
+            gestures;
+        }
+
+
     }
 }
