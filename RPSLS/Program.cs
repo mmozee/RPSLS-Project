@@ -14,6 +14,8 @@ namespace RPSLS
             //Paper paper = new Paper("Paper", "covers", "rock", "spock");
             //List<string> gestures = new List<string>();
             Game game = new Game();
+            game.RunGame();
+
 
 
         }

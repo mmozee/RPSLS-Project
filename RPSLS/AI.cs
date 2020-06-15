@@ -14,29 +14,32 @@ namespace RPSLS
         public AI()
 
         {
+            ChooseName();
+        }
+
+        public override void ChooseGesture()
+        {
+            Random RNG = new Random();
+
+            int myRandom = RNG.Next(5);
+
+          
+            ChosenGesture = gestures[myRandom];
+            Console.WriteLine("You have thrown: " + ChosenGesture);
+
+            if (myRandom == 0)
+            {
+                Console.WriteLine("You have thrown" + gestures[0]);
+            }
+
 
         }
 
-    //    public override void ChooseGesture()
-    //    # include<cstdlib>
-    //    # include<iostream>
-    //    # include<ctime>
-
-//    { 
-//      int main()
-//        { srand(time(0));
-//            std::cout << (rand() % 5 + 1) <<std>>::end;
-//            return 0;
-//        }
-//    }
-
-//    public override void ChooseName()
-//    {
-//        throw new NotImplementedException();
-//    }
-//    public override void AssignmentOfNameToGame()
-//    {
-//        throw new NotImplementedException();
-//    }
-//}
-//}
+        public override void ChooseName()
+        {
+            Console.WriteLine("Hello My name is Computerina");
+            
+        }
+       
+    }
+}

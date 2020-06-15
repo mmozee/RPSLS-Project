@@ -17,8 +17,10 @@ namespace RPSLS
 
         public Player()
         {  // constructor - Spawner
-            gestures = new List<string>() { "Fingers cutting", "Palm slap", "Fist pound", "Tongue flick", "Ear pull" };
+            gestures = new List<string>() { "Scissors", "Paper", "Rock", "Lizard", "Spock" };
             score = 0;
+            
+
 
 
         }
@@ -27,7 +29,7 @@ namespace RPSLS
         // member method - Can Do
         public abstract void ChooseGesture();
         public abstract void ChooseName();
-        public abstract void AssignmentOfNameToGame();
+       
 
      
 
