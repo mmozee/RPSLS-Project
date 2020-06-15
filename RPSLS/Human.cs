@@ -23,7 +23,9 @@ namespace RPSLS
             bool isValid = false;
             while(isValid == false)
             {
-                Console.WriteLine("What object do you want,  ?" + name);
+               
+                Console.WriteLine($"What object do you want, {name}?");
+              
                 string userInput = Console.ReadLine().ToLower();
                 if (userInput == "rock")
                 {
