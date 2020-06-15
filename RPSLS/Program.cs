@@ -10,6 +10,12 @@ namespace RPSLS
     {
         static void Main(string[] args)
         {
+            //Rock rock = new Rock("Rock", "crushes", "scissors", "lizard");
+            //Paper paper = new Paper("Paper", "covers", "rock", "spock");
+            //List<string> gestures = new List<string>();
+            Game game = new Game();
+
+
         }
     }
 }
